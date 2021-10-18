@@ -1,0 +1,109 @@
+body {
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+button:disabled,
+button:hover:disabled{
+    opacity: 0.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.close {
+    width: 12px;
+    height: 12px;
+    transition: all 300ms;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    span {
+        display: block;
+        background: #5d5d8b;
+        width: 16px;
+        height: 1px;
+    }
+    span:first-child {
+        transform: translate(-2px, 5px) rotate(135deg);
+    }
+
+    span:last-child {
+        transform: translate(-2px, 5px) rotate(-135deg);
+        margin-top: -1px;
+    }
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+
+.none-modal {
+    transition: all 300ms;
+    z-index: -10 !important;
+    background: transparent !important;
+    opacity: 0;
+}
+
+.visible-modal {
+    animation: vmodal 300ms ease-in;
+}
+
+.fade-modal {
+    transition: all 500ms;
+    visibility: hidden;
+    transform: translate(100%);
+    opacity: 0;
+}
+
+
+@keyframes vmodal {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fmodal {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(100%);
+    }
+}
+
