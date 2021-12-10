@@ -1,0 +1,616 @@
+[
+    {
+        "title": "Рюкзак",
+        "sale": false,
+        "price": 3500,
+        "size": null,
+        "images": [
+            "BB0008.jpg",
+            "BB0008-1.jpg"
+        ],
+        "id": "BB0008",
+        "category": "backpack",
+        "description": "Рюкзак среднего размера<br>Ткань имеет водоотталкивающие свойства<br>Эргономичные плечевые ремни<br>Отделение для ноутбука<br>Прочные молнии<br>Высота 40 см<br>Цвет черный",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рюкзак",
+        "sale": false,
+        "price": 2900,
+        "size": null,
+        "images": [
+            "BB0001.jpg",
+            "BB0001-1.jpg",
+            "BB0001-2.jpg"
+        ],
+        "id": "BB0001",
+        "category": "backpack",
+        "description": "Рюкзак из высококачественной ЭКО кожи<br>Размер средний - высота 40 см<br>Одно большое отделение и под крышкой есть дополнительное маленькое<br>По бокам карманы, плюс на лицевой стороне есть большой карман<br>Прочные молнии<br>Цвет черный",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рюкзак",
+        "sale": false,
+        "price": 3800,
+        "size": null,
+        "images": [
+            "BB0010.jpg",
+            "BB0010-1.jpg"
+        ],
+        "id": "BB0010",
+        "category": "backpack",
+        "description": "Рюкзак-сумка<br>Ткань имеет водоотталкивающие свойства с прочными швами и кантами<br>Два отделения и боковая ручка<br>Отделение для ноутбука<br>Объём 18 литров<br>Цвет черный",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Толстовка",
+        "sale": true,
+        "salenum": 47,
+        "saleprice": 3800,
+        "price": 2000,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "images": [
+            "HG0011.jpg",
+            "HG0011-1.jpg",
+            "HG0011-2.jpg"
+        ],
+        "id": "HG0011",
+        "category": "hoodies",
+        "description": "Стильная Толстовка<br>81% хлопок<br>Цвет серый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Толстовка",
+        "sale": true,
+        "salenum": 32,
+        "saleprice": 2950,
+        "price": 2000,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "images": [
+            "HH0007.jpg",
+            "HH0007-1.jpg",
+            "HH0007-2.jpg"
+        ],
+        "id": "HH0007",
+        "category": "hoodies",
+        "description": "Стильная Толстовка<br>81% хлопок<br>Цвет зеленый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Толстовка",
+        "sale": true,
+        "salenum": 42,
+        "saleprice": 3500,
+        "price": 2000,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "HO0009.jpg",
+            "HO0009-1.jpg",
+            "HO0009-2.jpg"
+        ],
+        "id": "HO0009",
+        "category": "hoodies",
+        "description": "Толстовка мужская со вставками из плащевки<br>Цвет коричневый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Толстовка",
+        "sale": true,
+        "salenum": 47,
+        "saleprice": 3800,
+        "price": 2000,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "images": [
+            "HO0012.jpg",
+            "HO0012-1.jpg",
+            "HO0012-2.jpg"
+        ],
+        "id": "HO0012",
+        "category": "hoodies",
+        "description": "Стильная Толстовка #bugsbunny<br>95% хлопок<br>Цвет коричневый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Толстовка",
+        "sale": true,
+        "salenum": 32,
+        "saleprice": 2950,
+        "price": 2000,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "images": [
+            "HY0004.jpg",
+            "HY0004-1.jpg",
+            "HY0004-2.jpg"
+        ],
+        "id": "HY0004",
+        "category": "hoodies",
+        "description": "Стильная Толстовка<br>Цвет желтый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Куртка",
+        "sale": false,
+        "price": 6500,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "JB0003.jpg",
+            "JB0003-1.jpg",
+            "JB0003-2.jpg"
+        ],
+        "id": "JB0003",
+        "category": "jacket",
+        "description": "Мужская куртка - нестареющая классика<br>Из высококачественной ЭКО кожи<br>В составе имеется стрейч<br>Цвет черный",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Куртка",
+        "sale": false,
+        "price": 8500,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "JD0002.jpg",
+            "JD0002-1.jpg",
+            "JD0002-2.jpg"
+        ],
+        "id": "JD0002",
+        "category": "jacket",
+        "description": "Комбинированная мужская куртка<br>Рукава из плотной шерсти<br>Наполнитель халафайбер<br>Верх 100 % полиэстер<br>Цвет синий",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Куртка",
+        "sale": false,
+        "price": 5800,
+        "size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "images": [
+            "JL0008.jpg",
+            "JL0008-1.jpg",
+            "JL0008-2.jpg"
+        ],
+        "id": "JL0008",
+        "category": "jacket",
+        "description": "Ветровка мужская<br>Подкладка полиэстер<br>Верх 100 % полиэстер<br>На лицевой стороне имеется три кармана и два внутренних<br>Цвет синий",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Куртка",
+        "sale": false,
+        "price": 5600,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "JR0005.jpg",
+            "JR0005-1.jpg",
+            "JR0005-2.jpg"
+        ],
+        "id": "JR0005",
+        "category": "jacket",
+        "description": "Ветровка мужская<br>На лицевой стороне имеется два кармана<br>Два внутренних кармана<br>Верхняя ткань полиэстер, подкладка полиэстер<br>Цвет красный",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Куртка",
+        "sale": false,
+        "price": 5800,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "JW0006.jpg",
+            "JW0006-1.jpg",
+            "JW0006-2.jpg"
+        ],
+        "id": "JW0006",
+        "category": "jacket",
+        "description": "Ветровка мужская демисезонная<br>Верх: 25% - нейлол, 75% - хлопок<br>Подкладка: 100% - хлопок<br>Комфорт изделия обеспечивает мягкий, но прочный материал нового поколения<br>Лёгкий и износостойкий материал обеспечивает максимальную теплозащиту, не утяжеляя изделие<br>Поддерживает внутри оптимальную температуру, выпуская лишний пар и влагу наружу<br>ЛЕГКО СТИРАЕТСЯ, БЫСТРО СОХНЕТ И ПРИЯТНО НОСИТСЯ<br>Цвет серый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Поло",
+        "sale": true,
+        "salenum": 22,
+        "saleprice": 2200,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "PD0015.jpg",
+            "PD0015-1.jpg"
+        ],
+        "id": "PD0015",
+        "category": "polo",
+        "description": "МОДНО, СТИЛЬНО, МОЛОДЁЖНО!!!!<br>Состав 97% хлопок и 3% эластан<br>Цвет синий",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Поло",
+        "sale": true,
+        "salenum": 22,
+        "saleprice": 2200,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "images": [
+            "PG0014.jpg",
+            "PG0014-1.jpg",
+            "PG0014-2.jpg"
+        ],
+        "id": "PG0014",
+        "category": "polo",
+        "description": "Модное поло<br>Мягкая и комфортная ткань (94% вискоза, 6% эластан)<br>Цвет серый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Поло",
+        "sale": true,
+        "salenum": 29,
+        "saleprice": 2400,
+        "price": 1700,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "images": [
+            "PW0013.jpg",
+            "PW0013-1.jpg",
+            "PW0013-2.jpg"
+        ],
+        "id": "PW0013",
+        "category": "polo",
+        "description": "Поло Lacoste<br>Нестареющая классика<br>100% хлопок<br>Цвет белый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Футболка",
+        "sale": true,
+        "salenum": 23,
+        "saleprice": 1300,
+        "price": 999,
+        "size": [
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "TG0015.jpg",
+            "TG0015-1.jpg",
+            "TG0015-2.jpg"
+        ],
+        "id": "TG0015",
+        "category": "t-shirt",
+        "description": "Слим футболка<br>95% хлопок<br>Цвет зеленый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Футболка",
+        "sale": true,
+        "salenum": 44,
+        "saleprice": 1800,
+        "price": 999,
+        "size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "images": [
+            "TL0014.jpg",
+            "TL0014-1.jpg",
+            "TL0014-2.jpg"
+        ],
+        "id": "TL0014",
+        "category": "t-shirt",
+        "description": "Футболка цвета джинсы<br>Лёгкая, удобная, стильная из 100 % хлопка",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 34,
+        "saleprice": 2600,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SD0016.jpg",
+            "SD0016-1.jpg",
+            "SD0016-2.jpg"
+        ],
+        "id": "SD0016",
+        "category": "shirt",
+        "description": "Стильная мужская рубашка полу слим<br>95% хлопок<br>Цвет синий",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 39,
+        "saleprice": 2800,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SD0017.jpg",
+            "SD0017-1.jpg",
+            "SD0017-2.jpg"
+        ],
+        "id": "SD0017",
+        "category": "shirt",
+        "description": "Рубашка мужская<br>Рукав возможен три четверти<br>Состав 45% лен 55% хлопок<br>Цвет синий",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 34,
+        "saleprice": 2600,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SL0019.jpg",
+            "SL0019-1.jpg",
+            "SL0019-2.jpg"
+        ],
+        "id": "SL0019",
+        "category": "shirt",
+        "description": "Рубашка мужская<br>Воротник стойка<br>Состав 45% лен 55% хлопок<br>Цвет серый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 39,
+        "saleprice": 2800,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SL0020.jpg",
+            "SL0020-1.jpg",
+            "SL0020-2.jpg"
+        ],
+        "id": "SL0020",
+        "category": "shirt",
+        "description": "Рубашка мужская<br>Воротник стойка<br>Рукав возможен три четверти<br>100% хлопок<br>Цвет серый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 34,
+        "saleprice": 2600,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SO0016.jpg",
+            "SO0016-1.jpg",
+            "SO0016-2.jpg"
+        ],
+        "id": "SO0016",
+        "category": "shirt",
+        "description": "Стильная мужская рубашка слим<br>95% хлопок<br>Цвет коричневый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 34,
+        "saleprice": 2600,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SW0017.jpg",
+            "SW0017-1.jpg",
+            "SW0017-2.jpg"
+        ],
+        "id": "SO0016",
+        "category": "shirt",
+        "description": "Стильная мужская рубашка слим<br>95% хлопок<br>Цвет белый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    },
+    {
+        "title": "Рубашка",
+        "sale": true,
+        "salenum": 34,
+        "saleprice": 2600,
+        "price": 1700,
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+        ],
+        "images": [
+            "SW0018.jpg",
+            "SW0018-1.jpg",
+            "SW0018-2.jpg"
+        ],
+        "id": "SW0018",
+        "category": "shirt",
+        "description": "Рубашка мужская<br>Состав 45% лен 55% хлопок<br>Цвет белый",
+        "comments": {
+            "name": "Коментарий",
+            "text": ""
+        }
+    }
+]
