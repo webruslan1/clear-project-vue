@@ -55,6 +55,7 @@ export default {
 <style lang="scss" scoped>
 .card {
   width: 270px;
+  transition: all 300ms;
   height: 500px;
   cursor: pointer;
   text-align: center;

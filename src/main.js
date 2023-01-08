@@ -3,55 +3,31 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import './styles/main.scss';
-// import VueAxios from 'vue-axios';
-import axios from 'axios';
 import VueCookie from 'vue-cookie';
 import catalog from '@/assets/catalog.json'
 import VueResource from 'vue-resource';
-// import i18n from './plugins/i18n';
-// import { current_language } from './plugins/i18n';
 import Notifications from 'vue-notification';
-// import VueSocketIOExt from 'vue-socket.io-extended';
-// import io from 'socket.io-client';
-// const socket = io('https://bananarust.com:2096');
-// Vue.use(VueSocketIOExt, socket);
 Vue.use(VueResource)
-// Vue.use(VueAxios, axios);
 Vue.use(VueCookie);
 Vue.use(Notifications);
 
-if (process.env.NODE_ENV === 'development') {
-  axios.defaults.baseURL = 'http://' + window.location.hostname + ':8080';
-} else {
-  axios.defaults.baseURL = 'https://' + window.location.hostname;
-}
-axios.defaults.withCredentials = true;
-axios.defaults.params = {};
-
-Vue.config.productionTip = false;
 
 new Vue({
   data() {
     return {
-      authUrl: 'https://' + window.location.hostname,
       cards: catalog
     };
   },
-  created() {
-    if (process.env.NODE_ENV === 'development') {
-      this.authUrl = 'http://' + window.location.hostname + ':8080';
-    }
-  },
   methods: {
     showNotify(type, text, duration) {
-      let title = this.current_language === 'en' ? 'Success' : 'Успешно';
+      let title =  'Успешно';
 
       if (type === 'error') {
-        title = this.current_language === 'en' ? 'Error' : 'Ошибка';
+        title = 'Ошибка';
       } else if (type === 'warn') {
-        title = this.current_language === 'en' ? 'Warning' : 'Предупреждение';
+        title = 'Предупреждение';
       } else if (type === 'info') {
-        title = this.current_language === 'en' ? 'Information' : 'Информация';
+        title = 'Информация';
       }
 
       if (this.$cookie.get('sound') == 1) {

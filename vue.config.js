@@ -1,19 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  devServer: {
-    // disableHostCheck: true,
-    // port: 8080,
-    // host: '0.0.0.0',
-    proxy: {
-      '/api/': {
-        target: 'https://bananarust.com',
-        changeOrigin: true,
-        secure: true,
-      },
-    },
-  },
-
   // productionSourceMap: false,
   css: {
     loaderOptions: {

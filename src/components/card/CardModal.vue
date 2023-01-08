@@ -36,21 +36,28 @@
             <div class="card-info__content-code">Артикул: {{ data.id }}</div>
             <div class="card-info__content-price">
               <span>{{ data.price }} ₽</span>
-              <span class="sale-price" v-if="data.sale == true">{{ data.saleprice }} ₽</span>
+              <span class="sale-price" v-if="data.sale == true"
+                >{{ data.saleprice }} ₽</span
+              >
             </div>
 
             <div class="card-info__content-size" v-if="data.size">
               <div class="card-info__content-size--title">Размер</div>
-              <select v-model="selectedSize" class="card-info__content-size--select">
-                <option v-for="size in data.size" :key="size" :value="size">
+              <select
+                v-model="selectedSize"
+                class="card-info__content-size--select"
+                style="text-transform: uppercase"
+              >
+                <option
+                  v-for="size in Object.keys(data.size)"
+                  :key="size"
+                  :value="size"
+                >
                   {{ size }}
                 </option>
               </select>
             </div>
-            <div
-              class="card-info__content-btn btn-tr"
-              @click="addBasket(data)"
-            >
+            <div class="card-info__content-btn btn-tr" @click="addBasket(data)">
               добавить в корзину
             </div>
             <p class="card-info__content-desc" v-html="data.description"></p>
@@ -68,7 +75,6 @@
       </div>
     </div>
     <notifications classes="notif" />
-
   </div>
 </template>
 
@@ -86,7 +92,7 @@ export default {
     return {
       currentImage: null,
       selectedSize: null,
-      randomNum: 5
+      randomNum: 5,
     };
   },
   watch: {
@@ -96,9 +102,9 @@ export default {
       this.currentImage = val.images[0];
       $("body").css("overflow", "hidden");
     },
-    selectedSize(val){
+    selectedSize(val) {
       this.data.selectedSize = val;
-    }
+    },
   },
   mounted() {
     this.random();
@@ -113,7 +119,7 @@ export default {
     ...mapActions({ addNewItem: "addNewItem" }),
     addBasket(id) {
       this.addNewItem(id);
-      this.$root.showNotify("info", 'Товар был добавлен в корзину');
+      this.$root.showNotify("info", "Товар был добавлен в корзину");
     },
     closeModal() {
       this.$emit("closeModal");

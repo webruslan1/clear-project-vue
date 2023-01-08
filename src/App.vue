@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="header-place"></div>
     <Header />
     <router-view></router-view>
     <Footer />
@@ -26,6 +27,12 @@ export default {
 
 <style lang="scss">
 #app {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.header-place{
+  height: 200px;
 }
 
 .container {

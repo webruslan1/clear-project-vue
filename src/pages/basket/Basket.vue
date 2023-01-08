@@ -13,7 +13,7 @@
           <div class="basket-list__item-content">
             <div class="basket-list__item-title">{{ card.title }}</div>
             <div class="basket-list__item-price">ЦЕНА: {{ card.price }} ₽</div>
-            <div class="basket-list__item-size" v-if="card.selectedSize">
+            <div class="basket-list__item-size" style="text-transform: uppercase" v-if="card.selectedSize">
               РАЗМЕР: {{ card.selectedSize }}
             </div>
             <div class="basket-list__item-size" v-else>РАЗМЕР: НЕ ВЫБРАНО</div>
@@ -131,6 +131,14 @@ export default {
         tovars = tovars + articles[i] + "\n";
       }
 
+      if(this.name == null){
+        this.$root.showNotify("error", "Укажите Ваше имя.");
+        return false
+      }
+      if(this.phone == null){
+        this.$root.showNotify("error", "Укажите Ваш телефон.");
+        return false
+      }
 
       console.log(articles);
       var delivery = "";
@@ -148,12 +156,14 @@ export default {
         default:
           break;
       }
-      const fullMessage = `Имя: ${this.name} \nТелефон: ${this.phone} \nАдрес: ${this.address} \nТип доставки: ${delivery} \n${this.comment ? `Коменнтарий: ${this.comment}\n` : ""}Товары: \n`;
+      const fullMessage = `Имя: ${this.name} \nТелефон: ${this.phone}\n${ this.address ? `Адрес: ${this.address}\n`: "" }Тип доставки: ${delivery} \n${this.comment ? `Коменнтарий: ${this.comment}\n` : ""}Товары: \n`;
       this.$http.post(
         `https://api.telegram.org/bot${this.token}/sendMessage?chat_id=${
           this.chatid
         }&text=${fullMessage + tovars}`
-      );
+      ).then(() => {
+        this.$root.showNotify("info", "Ваш заказ успешно оформлен.");
+      })
     },
   },
 };

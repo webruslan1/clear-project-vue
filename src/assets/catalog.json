@@ -2,6 +2,7 @@
     {
         "title": "Рюкзак",
         "sale": false,
+        "new": false,
         "price": 3500,
         "size": null,
         "images": [
@@ -19,6 +20,7 @@
     {
         "title": "Рюкзак",
         "sale": false,
+        "new": true,
         "price": 2900,
         "size": null,
         "images": [
@@ -37,6 +39,7 @@
     {
         "title": "Рюкзак",
         "sale": false,
+        "new": true,
         "price": 3800,
         "size": null,
         "images": [
@@ -53,17 +56,18 @@
     },
     {
         "title": "Толстовка",
+        "new": true,
         "sale": true,
         "salenum": 47,
         "saleprice": 3800,
         "price": 2000,
-        "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
+        "size": {
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true
+        },
         "images": [
             "HG0011.jpg",
             "HG0011-1.jpg",
@@ -79,17 +83,18 @@
     },
     {
         "title": "Толстовка",
+        "new": true,
         "sale": true,
         "salenum": 32,
         "saleprice": 2950,
         "price": 2000,
-        "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
+        "size": {
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true
+        },
         "images": [
             "HH0007.jpg",
             "HH0007-1.jpg",
@@ -105,17 +110,18 @@
     },
     {
         "title": "Толстовка",
+        "new": true,
         "sale": true,
         "salenum": 42,
         "saleprice": 3500,
         "price": 2000,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "HO0009.jpg",
             "HO0009-1.jpg",
@@ -131,17 +137,18 @@
     },
     {
         "title": "Толстовка",
+        "new": true,
         "sale": true,
         "salenum": 47,
         "saleprice": 3800,
         "price": 2000,
-        "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
+        "size": {
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true
+        },
         "images": [
             "HO0012.jpg",
             "HO0012-1.jpg",
@@ -157,17 +164,18 @@
     },
     {
         "title": "Толстовка",
+        "new": true,
         "sale": true,
         "salenum": 32,
         "saleprice": 2950,
         "price": 2000,
-        "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
+        "size": {
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true
+        },
         "images": [
             "HY0004.jpg",
             "HY0004-1.jpg",
@@ -183,17 +191,18 @@
     },
     {
         "title": "Куртка",
+        "new": false,
         "sale": false,
         "price": 6500,
-        "size": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "xs": true,
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "JB0003.jpg",
             "JB0003-1.jpg",
@@ -209,17 +218,18 @@
     },
     {
         "title": "Куртка",
+        "new": false,
         "sale": false,
         "price": 8500,
-        "size": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "xs": true,
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "JD0002.jpg",
             "JD0002-1.jpg",
@@ -235,13 +245,14 @@
     },
     {
         "title": "Куртка",
+        "new": false,
         "sale": false,
         "price": 5800,
-        "size": [
-            "M",
-            "L",
-            "XL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true
+        },
         "images": [
             "JL0008.jpg",
             "JL0008-1.jpg",
@@ -257,17 +268,18 @@
     },
     {
         "title": "Куртка",
+        "new": false,
         "sale": false,
         "price": 5600,
-        "size": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "xs": true,
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "JR0005.jpg",
             "JR0005-1.jpg",
@@ -283,16 +295,17 @@
     },
     {
         "title": "Куртка",
+        "new": false,
         "sale": false,
         "price": 5800,
-        "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "JW0006.jpg",
             "JW0006-1.jpg",
@@ -308,17 +321,18 @@
     },
     {
         "title": "Поло",
+        "new": false,
         "sale": true,
         "salenum": 22,
         "saleprice": 2200,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "PD0015.jpg",
             "PD0015-1.jpg"
@@ -333,16 +347,16 @@
     },
     {
         "title": "Поло",
+        "new": false,
         "sale": true,
         "salenum": 22,
         "saleprice": 2200,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true
+        },
         "images": [
             "PG0014.jpg",
             "PG0014-1.jpg",
@@ -358,17 +372,18 @@
     },
     {
         "title": "Поло",
+        "new": false,
         "sale": true,
         "salenum": 29,
         "saleprice": 2400,
         "price": 1700,
-        "size": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
+        "size": {
+            "s": true,
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true
+        },
         "images": [
             "PW0013.jpg",
             "PW0013-1.jpg",
@@ -384,23 +399,24 @@
     },
     {
         "title": "Футболка",
+        "new": false,
         "sale": true,
         "salenum": 23,
         "saleprice": 1300,
         "price": 999,
-        "size": [
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "TG0015.jpg",
             "TG0015-1.jpg",
             "TG0015-2.jpg"
         ],
         "id": "TG0015",
-        "category": "t-shirt",
+        "category": "tshirt",
         "description": "Слим футболка<br>95% хлопок<br>Цвет зеленый",
         "comments": {
             "name": "Коментарий",
@@ -409,22 +425,23 @@
     },
     {
         "title": "Футболка",
+        "new": false,
         "sale": true,
         "salenum": 44,
         "saleprice": 1800,
         "price": 999,
-        "size": [
-            "M",
-            "L",
-            "XL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true
+        },
         "images": [
             "TL0014.jpg",
             "TL0014-1.jpg",
             "TL0014-2.jpg"
         ],
         "id": "TL0014",
-        "category": "t-shirt",
+        "category": "tshirt",
         "description": "Футболка цвета джинсы<br>Лёгкая, удобная, стильная из 100 % хлопка",
         "comments": {
             "name": "Коментарий",
@@ -433,17 +450,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 34,
         "saleprice": 2600,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SD0016.jpg",
             "SD0016-1.jpg",
@@ -459,17 +477,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 39,
         "saleprice": 2800,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SD0017.jpg",
             "SD0017-1.jpg",
@@ -485,17 +504,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 34,
         "saleprice": 2600,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SL0019.jpg",
             "SL0019-1.jpg",
@@ -511,17 +531,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 39,
         "saleprice": 2800,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SL0020.jpg",
             "SL0020-1.jpg",
@@ -537,17 +558,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 34,
         "saleprice": 2600,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SO0016.jpg",
             "SO0016-1.jpg",
@@ -563,17 +585,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 34,
         "saleprice": 2600,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SW0017.jpg",
             "SW0017-1.jpg",
@@ -589,17 +612,18 @@
     },
     {
         "title": "Рубашка",
+        "new": false,
         "sale": true,
         "salenum": 34,
         "saleprice": 2600,
         "price": 1700,
-        "size": [
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-        ],
+        "size": {
+            "m": true,
+            "l": true,
+            "xl": true,
+            "xxl": true,
+            "xxxl": true
+        },
         "images": [
             "SW0018.jpg",
             "SW0018-1.jpg",

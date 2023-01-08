@@ -1,22 +1,22 @@
 <template>
   <div class="main">
-    <div class="main-header">
-      <div class="container">
-        <h1>
-          Интернет - магазин верхней <br />
-          мужской одежды
-        </h1>
-        <h2>
-          Скидка 10% на <br />
-          первый заказ
-        </h2>
-        <router-link to="/catalog" class="main-header__btn btn-tr"
-          >В каталог</router-link
-        >
-      </div>
-    </div>
     <div class="container">
-      <div class="main-services">
+      <div class="main-header fixed">
+        <div class="container">
+          <h1>
+            Интернет - магазин верхней <br />
+            мужской одежды
+          </h1>
+          <h2>
+            Скидка 10% <br />
+            на первый заказ
+          </h2>
+          <router-link to="/catalog" class="main-header__btn btn-tr"
+            >В каталог</router-link
+          >
+        </div>
+      </div>
+      <!-- <div class="main-services">
         <div class="main-services__item">
           <div class="main-services__item-img">
             <img src="img/services1.png" alt="" />
@@ -49,13 +49,42 @@
             Есть оfline магазин в ТЦ Савёловский
           </div>
         </div>
-      </div>
+      </div> -->
+    </div>
+    <div class="marquee-top">
+      <span>
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+        НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥 НОВАЯ КОЛЛЕКЦИЯ 2022 🔥
+      </span>
+    </div>
+    <div class="marquee-bottom">
+      <span>
+        SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10%
+        🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от
+        10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE
+        от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤
+        SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10%
+        🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от
+        10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE
+        от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤
+        SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10% 🖤 SALE от 10%
+        🖤 SALE от 10% 🖤 SALE от 10% 🖤
+      </span>
+    </div>
+    <div class="container">
       <div class="main-grid">
-        <router-link to="/catalog" class="main-grid__item">куртки</router-link>
-        <router-link to="/catalog" class="main-grid__item">футболки</router-link>
-        <router-link to="/catalog" class="main-grid__item">рюкзаки</router-link>
-        <router-link to="/catalog" class="main-grid__item">рубашки</router-link>
-        <router-link to="/catalog" class="main-grid__item">толстовки</router-link>
+        <router-link to="/catalog" class="main-grid__item"></router-link>
+        <router-link to="/catalog" class="main-grid__item"></router-link>
+        <router-link to="/catalog" class="main-grid__item"></router-link>
+        <router-link to="/catalog" class="main-grid__item"></router-link>
+        <router-link to="/catalog" class="main-grid__item"></router-link>
       </div>
       <div class="main-sale">
         <div class="main-sale__title">Акции</div>
@@ -127,15 +156,17 @@ export default {
     margin-bottom: 50px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("/img/main-bg.jpg");
-    padding-top: 150px;
+    background-size: cover;
+    padding-top: 200px;
     padding-bottom: 300px;
+    border-radius: 20px;
     h1 {
       font-style: normal;
       font-weight: 600;
-      font-size: 45px;
+      font-size: 40px;
       line-height: 100.4%;
       letter-spacing: -0.05em;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       color: #fbf7f7;
     }
 
@@ -164,28 +195,6 @@ export default {
     }
   }
 
-  &-services {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    &__item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 20%;
-      &-text {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 25px;
-        line-height: 30px;
-        text-align: center;
-        letter-spacing: -0.05em;
-        width: 80%;
-      }
-    }
-  }
-
   &-grid {
     margin-bottom: 100px;
     display: grid;
@@ -193,55 +202,57 @@ export default {
     grid-auto-rows: 300px;
     &__item {
       position: relative;
-      border: 20px solid #fff;
+      border: 10px solid #fff;
       cursor: pointer;
-      transition: all 300ms;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 30px;
       text-transform: uppercase;
       color: #fff;
+      margin: 10px;
+      transition: all 300ms;
+        opacity: 1;
       &:nth-child(1) {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 3;
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-          url("/img/grid1.jpg");
+        background: url("/img/grid1.jpg");
         background-size: contain;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
       }
-
       &:nth-child(2) {
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-          url("/img/grid2.jpg");
+        background: url("/img/grid2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
       }
       &:nth-child(3) {
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-          url("/img/grid3.jpg");
+        background: url("/img/grid3.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
       }
       &:nth-child(4) {
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-          url("/img/grid4.jpg");
+        background: url("/img/grid4.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
       }
       &:nth-child(5) {
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-          url("/img/grid5.jpg");
+        background: url("/img/grid5.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+      }
+
+      &:hover {
+        margin: 0px;
+      opacity: 0.8;
+
       }
     }
   }
@@ -261,5 +272,64 @@ export default {
       justify-content: space-between;
     }
   }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes scrollout {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.marquee-top {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 30px;
+  transform: rotateZ(1deg);
+  background: #000;
+}
+
+.marquee-bottom {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 30px;
+  transform: rotateZ(-1deg);
+  background: red;
+  margin-bottom: 20px;
+}
+
+.marquee-top span {
+  color: #fff;
+  display: inline-block;
+  padding-left: 100%;
+  -webkit-animation: scroll 35s infinite linear;
+  -moz-animation: scroll 35s infinite linear;
+  animation: scroll 35s infinite linear;
+  font-size: 30px;
+}
+
+.marquee-bottom span {
+  color: #fff;
+  display: inline-block;
+  padding-left: 100%;
+  -webkit-animation: scrollout 35s infinite linear;
+  -moz-animation: scrollout 35s infinite linear;
+  animation: scrollout 35s infinite linear;
+  font-size: 30px;
 }
 </style>
